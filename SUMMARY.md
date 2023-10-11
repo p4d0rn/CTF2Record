@@ -11,3 +11,4 @@
 ## 2023 Summer🌻
 
 * [justCTF](./2023Summer/justCTF.md)
+* [zer0ptsCTF](./2023Summer/zer0pts.md)

